@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Press+Start+2P&display=swap');
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    margin: 0;
+}
+
+.header__logo, .footer__logo {
+    font-family: 'Amatic SC';
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FF3DFE;
+    height: 110px;
+}
+
+.header__logo {
+    font-size: 77px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    height: 142px;
+}
+
+.footer__logo {
+    font-size: 55px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.main {
+    background: linear-gradient(164deg, #B4F6FF 0%, #CA58FF 57.93%, #5253FF 100%);
+}
+
+.main__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 32px 0;
+}
+
+.main__card {
+    display: flex;
+    flex-direction: column;
+    width: 364px;
+    height: 346px;
+}
+
+.main__card-desription {
+    padding: 32px 24px;
+    max-height: 92px;
+}
+
+.green {
+    background: #24FF00;
+}
+
+.yellow {
+    background: #FFED00;
+}
+
+.white {
+    background: #FFFFFF;
+}
+
+.main__card-text {
+    font-family: 'Press Start 2P';
+    font-size: 14px;
+}
+
+.main__card-image {
+    height: 254px;
+}
